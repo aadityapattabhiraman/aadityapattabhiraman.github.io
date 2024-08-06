@@ -1,1 +1,188 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P Aaditya - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77c5d5 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+        }
+        .content h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>P Aaditya</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>P Aaditya</h1>
+            <p>Artificial Intelligence & Machine Learning Enthusiast</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="education" class="content">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Undergrad Degree:</strong>
+                    <ul>
+                        <li>Course: Artificial Intelligence & Machine Learning (BE)</li>
+                        <li>Institution & University: Cambridge Institute of Technology under VTU</li>
+                        <li>Period: 2020 - 2024</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Samsung Innovation Campus (SIC):</strong>
+                    <ul>
+                        <li>Course: Artificial Intelligence & Machine Learning</li>
+                        <li>Period: 250 hours</li>
+                        <li>Project: Surgery Mortality Prediction</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Convolutional Neural Networks in TensorFlow:</strong>
+                    <ul>
+                        <li>From: Coursera</li>
+                        <li>Skills Learned: CNN</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Introduction to TensorFlow for AI, ML, DL:</strong>
+                    <ul>
+                        <li>From: Coursera</li>
+                        <li>Skills Learned: Computer Vision, TensorFlow, Machine Learning</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience" class="content">
+            <h2>Experience</h2>
+            <ul>
+                <li>Completed a 6-month internship (Apr 2023 - Oct 2023) at Samsung Prism and worked on the project “Corrupted Image Detection” using Deep Learning</li>
+                <li>Currently pursuing an internship at Samsung in the domain of Generative AI (Oct 2023 – Apr 2024)</li>
+                <li>Currently pursuing an internship at Thoughtware Analytics from Jan 2024</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="content">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Corrupted Image Detection (Samsung):</strong>
+                    <ul>
+                        <li>Classify images based on whether they are corrupted or not</li>
+                        <li>PyTorch framework was used with various CNN models such as TinyVGG, AlexNet, ResNetV1, and MobileNetV1 for mobile applications</li>
+                        <li>DistributedDataParallel (DDP) was utilized to distribute the training workload across multiple GPUs</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Surgery Mortality Prediction:</strong>
+                    <ul>
+                        <li>Determine whether patients can survive a particular surgery based on vitals</li>
+                        <li>Used PyTorch with algorithms like Random Forest, CNN, and DNN</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Quality Assurance Framework for AI-generated Images (Samsung):</strong>
+                    <ul>
+                        <li>Gathered a collection of image quality assurance metrics for assessing AI-generated images</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Language to Language Models on the Opus Books Dataset:</strong>
+                    <ul>
+                        <li>Constructed a transformer and trained it on a translation task</li>
+                        <li>Used PyTorch transformers with models like the standard transformer model, t5-small, nllb, and mbart</li>
+                        <li>Fully Sharded Data Parallel (FSDP) was utilized to train the model on multiple GPUs</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:aadityapattabhiraman@gmail.com">aadityapattabhiraman@gmail.com</a></p>
+            <p>Phone: 9380487794</p>
+        </section>
+    </div>
+</body>
+</html>
+
